@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="a-RqGZJpgaQJkTRfgwLB8Qlk4LcWUJ96DojwxadIB8E" />
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Yashwanth Hudumula | Java Developer | Web Developer | Data Enthusiast">
@@ -105,6 +103,48 @@
         button:hover {
             background: #ff5a75;
         }
+
+
+
+
+        .menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    background: #e94560;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the menu button */
+    }
+
+    nav ul {
+        display: none; /* Hide menu items by default */
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: rgba(233, 69, 96, 0.9);
+    }
+
+    nav ul.active {
+        display: flex; /* Show menu when active */
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -112,15 +152,26 @@
         <h1 class="animate">Yashwanth Hudumula</h1>
         <p class="animate">Java Developer | Web Developer | Data Enthusiast</p>
     </header>
+
+
+
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="nav-menu">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
+    
+
+
+
+
+    <nav>
+        
     <section id="about">
         <h2>About Me</h2>
         <p>I'm <strong>Yashwanth Hudumula</strong>, a passionate Java Developer and Web Developer from JNTU Hyderabad. 
@@ -229,6 +280,11 @@
     </footer>
     <script>
         gsap.from(".animate", {opacity: 0, y: -50, duration: 1, stagger: 0.2});
+
+        function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("active");
+}
+
     </script>
 </body>
 </html>
