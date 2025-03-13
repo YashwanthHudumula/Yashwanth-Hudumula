@@ -1,67 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
 
+  <!-- Pages -->
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/expense.html</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/microsoft-frt.html</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/hostel-qr.html</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/hotel-booking.html</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/expense.html</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Microsoft%20frt.html</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Chegg%20work%20certificate.pdf</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Hostel%20QR.html</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Hotel%20booking.html</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/index.html</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Infosys%20internship%20certificate.pdf</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/H%20Yashwanth%20FRT.pdf</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Hostel%20QR%20assests/rrp_final[1].pdf</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/Hotel%20booking%20assets/Abstract.pdf</loc>
-  <lastmod>2025-03-07T19:27:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+  <!-- PDFs (Optional - Remove if not needed for indexing) -->
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/chegg-work-certificate.pdf</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/infosys-internship-certificate.pdf</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/h-yashwanth-frt.pdf</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/hostel-qr-assets/rrp-final.pdf</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://yashwanthhudumula.github.io/Yashwanth-Hudumula/hotel-booking-assets/abstract.pdf</loc>
+    <lastmod>2025-03-07T19:27:08+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
 </urlset>
